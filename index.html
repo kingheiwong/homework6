@@ -22,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="echarts.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -114,7 +117,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">國際網絡</h2>
+                    <h2 class="section-heading">PageView</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -129,12 +132,13 @@
                             <br>
                             <br>
                             <br>
-                            香港擁有很強的國際網絡，如不少國際公司亦選擇在香港開設總公司，而外資在港的投資亦很高，令香港成為一個國際化的都會。根據《競爭力報告》中的數據顯示，在2014年已經有1032.5 億美元的外國資金流入香港，為全球排名第2，僅次於中國的1285 億，亦比美國高出一倍。</p>
+                            This is the Pageview record of my pages over the period of Apr 1 to Apr 30
                              <br>
                             <br>
                             <br>
                             <br>
                             <br>
+                            </p>
                 </div>
                
                 <div id="chart1" class="col-lg-6 col-md-6 col-xs-6 col-sm-6" style="width:500px;height:400px;">
@@ -145,7 +149,7 @@
                                 var option = data;
                                 var myChart = echarts.init(document.getElementById('chart1'));
                                 
-                                myChart1.setOption(option1);
+                                myChart.setOption(option);
                             })
                         });
                     </script>
