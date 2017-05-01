@@ -1,7 +1,7 @@
 {    "title": {
         "text": "PageView",
-        "subtext":"Apr1-Apr30"
-         "textStyle":{
+        "subtext":"Apr1-Apr30",
+         
         "color": "#FFFFFF",
         "bottom": 30
     }
